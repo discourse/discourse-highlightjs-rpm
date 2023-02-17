@@ -1,0 +1,5 @@
+{
+  "name": "RPM spec files syntax highlighting",
+  "about_url": "https://github.com/discourse/discourse-highlightjs-rpm",
+  "component": true
+}
