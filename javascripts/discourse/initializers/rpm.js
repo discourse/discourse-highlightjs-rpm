@@ -3,7 +3,7 @@ import rpm from "../lib/rpm-highlightjs";
 
 export default {
   name: "highlightjs-rpm",
-  initialize(container) {
+  initialize() {
     withPluginApi("1.4.0", (api) => {
       api.registerHighlightJSLanguage("rpm-specfile", rpm);
     });
